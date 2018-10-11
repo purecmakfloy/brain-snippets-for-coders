@@ -68,6 +68,7 @@ tar xvzf openssl-1.0.1c.tar.gz
 12) Теперь собираем этот доп: В MSYS консоли пишем
 ```
 export PATH="/c/msys64/mingw64/bin:$PATH"
+cd C:/openssl-1.0.0c
 ./Configure --prefix=$PWD/dist no-idea no-mdc2 no-rc5 shared mingw64
 make depend && make && make install
 ```
