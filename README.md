@@ -50,4 +50,34 @@ cd C:/Qt/5.2.0/Src/qtbase/
 ```
 ./configure.exe -static -prefix "C:\Qt\Qt5.2.0_static" -opengl desktop -nomake examples -nomake tests 
 ```
-8)
+8) После конфигурации - самое долгое и ужасное сборочка:
+```
+make
+```
+9) Ошибка номер 1: Проблема с исходником OPENSSL. Скачиваем нужную нам версию https://www.openssl.org/source/old/1.0.0/openssl-1.0.0c.tar.gz
+10) Распаковываем командой в констоли MSYS:
+```
+tar xvzf openssl-1.0.1c.tar.gz
+```
+11) Распокавали? Теперь руками переносим папку на диск Це. C:\openssl-1.0.0c
+
+12) Теперь собираем этот доп: В MSYS консоли пишем
+```
+export PATH="/c/msys64/mingw64/bin:$PATH"
+./Configure --prefix=$PWD/dist no-idea no-mdc2 no-rc5 shared mingw64
+make depend && make && make install
+```
+13) После компиляции, папку C:\openssl-1.0.0c\include\openssl ташим в C:\msys64\mingw64\include в которой, меняем название оргинальной папки openssl на openssl_bak и копируем нашу приготовленую папку
+
+14) Снова переходим в MSYS консоль и снова
+```
+make
+```
+15) Ошибка 2: g++: error: missing argument to ‘-L’, редактируем файл C:\Qt\5.2.0\Src\qtbase\src\tools\uic\Makefile.Release, заменяя ошибочную строку 20 на:
+```
+LIBS = -LC:\openssl-1.0.0c\dist\lib -LC:/Qt/5.2.0/Src/qtbase/lib -lQt5Core -lole32 -luuid -lws2_32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lz 
+```
+16) Снова:
+```
+make
+```
