@@ -28,6 +28,6 @@
 
 3) В файле "qmake.conf" отыскиваем переменную QMAKE_LFLAGS и приравниваем ей значение, вот так:
 
-#QMAKE_LFLAGS = -static -static-libgcc 
+  #QMAKE_LFLAGS = -static -static-libgcc 
 
 
