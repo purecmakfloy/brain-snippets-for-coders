@@ -30,4 +30,12 @@
 ```
   #QMAKE_LFLAGS = -static -static-libgcc 
 ```
+4) Теперь установим MSYS64. Скачиваем его, устанавливаем. https://www.msys2.org/
 
+5) Устанавливаем MINGW64: 
+```
+pacman -S mingw-w64-x86_64-gdb mingw-w64-x86_64
+```
+```
+pacman -S --needed base-devel mingw-w64-x86_64-toolchain git subversion mercurial mingw-w64-x86_64-cmake
+```
