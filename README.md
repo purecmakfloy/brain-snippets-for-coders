@@ -42,4 +42,12 @@ pacman -S --needed base-devel mingw-w64-x86_64-toolchain git subversion mercuria
 ```
 pacman -Syyuu
 ```
-
+6) Переходим в папку с сорцами 
+```
+cd C:/Qt/5.2.0/Src/qtbase/
+```
+7) Конфигугируем так в MSYS:
+```
+./configure.exe -static -prefix "C:\Qt\Qt5.2.0_static" -opengl desktop -nomake examples -nomake tests 
+```
+8)
