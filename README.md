@@ -27,7 +27,7 @@
 2) Переходим в каталог C:\Qt\5.2.0\Src\qtbase\mkspecs\win32-g++ и открываем файл "qmake.conf"
 
 3) В файле "qmake.conf" отыскиваем переменную QMAKE_LFLAGS и приравниваем ей значение, вот так:
-
+```
   #QMAKE_LFLAGS = -static -static-libgcc 
-
+```
 
