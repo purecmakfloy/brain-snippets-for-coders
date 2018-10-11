@@ -77,6 +77,7 @@ make depend && make && make install
 ```
 make
 ```
+![Иллюстрация к проекту](https://raw.githubusercontent.com/karushifa/snippets-code/master/index2.png)
 15) Ошибка 2: g++: error: missing argument to ‘-L’, редактируем файл C:\Qt\5.2.0\Src\qtbase\src\tools\uic\Makefile.Release, заменяя ошибочную строку 20 на:
 ```
 LIBS = -LC:\openssl-1.0.0c\dist\lib -LC:/Qt/5.2.0/Src/qtbase/lib -lQt5Core -lole32 -luuid -lws2_32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lz 
