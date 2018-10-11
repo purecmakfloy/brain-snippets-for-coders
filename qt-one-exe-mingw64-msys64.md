@@ -189,3 +189,4 @@ Desktop Qt 5.2.0 Static MinGW 32 bit
 ![Иллюстрация к проекту](https://raw.githubusercontent.com/karushifa/snippets-code/master/index7.png)
 ![Иллюстрация к проекту](https://raw.githubusercontent.com/karushifa/snippets-code/master/index8.png)
 
+#Ужасссс
