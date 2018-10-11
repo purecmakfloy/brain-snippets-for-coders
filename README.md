@@ -95,3 +95,9 @@ make
 ![Иллюстрация к проекту](https://raw.githubusercontent.com/karushifa/snippets-code/master/index3.png)
 ![Иллюстрация к проекту](https://raw.githubusercontent.com/karushifa/snippets-code/master/index4.png)
 ![Иллюстрация к проекту](https://raw.githubusercontent.com/karushifa/snippets-code/master/index5.png)
+Переходим в нужную папку и в файле Makefile.Release исправляем строку с "-L"...
+
+17) Снова и так каждый раз:
+```
+make
+```
