@@ -52,7 +52,7 @@ cd C:/Qt/5.2.0/Src/qtbase/
 ```
 7) Конфигугируем так в MSYS:
 ```
-./configure.exe -static -prefix "C:\Qt\Qt5.2.0_static" -opengl desktop -nomake examples -nomake tests 
+./configure.exe -static -prefix "C:/Qt/Qt5.2.0_static" -opengl desktop -nomake examples -nomake tests 
 ```
 8) После конфигурации - самое долгое и ужасное сборочка:
 ```
