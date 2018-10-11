@@ -90,3 +90,7 @@ LIBS = -LC:\openssl-1.0.0c\dist\lib -LC:/Qt/5.2.0/Src/qtbase/lib -lQt5Core -lole
 ```
 make
 ```
+
+16) Повторная ошибка missing argument с вычеслением ее устранения в скриншотах:
+![Иллюстрация к проекту](https://raw.githubusercontent.com/karushifa/snippets-code/master/index3.png)
+![Иллюстрация к проекту](https://raw.githubusercontent.com/karushifa/snippets-code/master/index4.png)
