@@ -21,3 +21,13 @@
 
 Версия OPENSSL: openssl-1.0.1c
 
+
+1) Cкачиваем и устанавливаем Qt 5.2.0 for Windows 32-bit (MinGW 4.8, OpenGL, 689 MB) (при установке ставим галочку Source Components) http://qt-project.org/downloads
+
+2) Переходим в каталог C:\Qt\5.2.0\Src\qtbase\mksp ecs\win32-g++ и открываем файл "qmake.conf"
+
+3) В файле "qmake.conf" отыскиваем переменную QMAKE_LFLAGS и приравниваем ей значение, вот так:
+
+#QMAKE_LFLAGS = -static -static-libgcc 
+
+
