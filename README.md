@@ -39,3 +39,7 @@ pacman -S mingw-w64-x86_64-gdb mingw-w64-x86_64
 ```
 pacman -S --needed base-devel mingw-w64-x86_64-toolchain git subversion mercurial mingw-w64-x86_64-cmake
 ```
+```
+pacman -Syyuu
+```
+
