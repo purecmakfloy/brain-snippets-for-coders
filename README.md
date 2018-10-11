@@ -94,3 +94,4 @@ make
 16) Повторная ошибка missing argument с вычеслением ее устранения в скриншотах:
 ![Иллюстрация к проекту](https://raw.githubusercontent.com/karushifa/snippets-code/master/index3.png)
 ![Иллюстрация к проекту](https://raw.githubusercontent.com/karushifa/snippets-code/master/index4.png)
+![Иллюстрация к проекту](https://raw.githubusercontent.com/karushifa/snippets-code/master/index5.png)
