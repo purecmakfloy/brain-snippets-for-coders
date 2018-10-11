@@ -107,3 +107,8 @@ make
 18) Когда так спустя несколько часов, значит ты Герой:
 
 ![Иллюстрация к проекту](https://raw.githubusercontent.com/karushifa/snippets-code/master/index6.png)
+
+19) Пишем: 
+```
+make install
+```
